@@ -23,7 +23,7 @@ function ToDoList(){
             <button onClick={addToDo}>Add Task</button>
             
             <div>
-            <h2>To Do List</h2>
+            <h3>To Do List</h3>
                 <ul id="toDo">
                     {toDos.map((toDo, index)=>(
                         // Map - mapeia elemento por elemento aplicando a modificação
